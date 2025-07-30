@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | For Customers</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 36px 28px;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+        }
+        .gallery-header {
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        .gallery-title {
+            font-size: 2.3rem;
+            font-weight: 700;
+            color: #222;
+            letter-spacing: 1px;
+        }
+        .gallery-subtitle {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .customer-section {
+            background: #eafbe7;
+            border-radius: 8px;
+            padding: 18px 0;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        .customer-icon {
+            color: #0a9f14;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .customer-text {
+            font-size: 1.15rem;
+            color: #0a9f14;
+            font-weight: 600;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+        }
+        .gallery-item {
+            background: #f8fafc;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.13);
+        }
+        .gallery-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 2px solid #0a9f14;
+        }
+        .gallery-caption {
+            padding: 14px 10px;
+            font-size: 1rem;
+            color: #222;
+            text-align: center;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 14px 4vw;
+            }
+            .gallery-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery-header">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-subtitle">
+                For Customers: Explore our latest collections, real customer moments, and product highlights.
+            </div>
+        </div>
+        <div class="customer-section">
+            <span class="customer-icon">&#10003;</span>
+            <span class="customer-text">Inspired by You — Showcasing Real Style, Real Performance</span>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="Images/gallery1.jpg" alt="Customer in Macky Jersey" class="gallery-img">
+                <div class="gallery-caption">Customer Spotlight: Macky Pro Performance Jersey in action</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/gallery2.jpg" alt="Running Shoes" class="gallery-img">
+                <div class="gallery-caption">Velocity Sports Shoes — Engineered for speed and comfort</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/gallery3.jpg" alt="Team Photo" class="gallery-img">
+                <div class="gallery-caption">Team Spirit: Our customers, our pride</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/gallery4.jpg" alt="Accessories" class="gallery-img">
+                <div class="gallery-caption">Elite Accessories — Complete your look with style</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/gallery5.jpg" alt="Outdoor Training" class="gallery-img">
+                <div class="gallery-caption">Outdoor Training: Apparel that performs wherever you go</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/gallery6.jpg" alt="Happy Customer" class="gallery-img">
+                <div class="gallery-caption">Happy Customer: Confidence in every step</div>
+            </div>

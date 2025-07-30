@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macky Sports Apparel | Brands for Customers</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 950px;
+            margin: 50px auto;
+            padding: 36px 28px;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+        }
+        .brands-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            margin-bottom: 18px;
+        }
+        .brands-icon {
+            color: #0a9f14;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .brands-title {
+            font-size: 2.3rem;
+            font-weight: 700;
+            color: #222;
+            letter-spacing: 1px;
+        }
+        .brands-subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .brands-content {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.7;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+        .brands-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 24px;
+        }
+        .brand-card {
+            background: #f8fafc;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 22px 18px;
+            width: 240px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .brand-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.13);
+        }
+        .brand-logo {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            margin-bottom: 12px;
+            border-radius: 50%;
+            background: #fff;
+            border: 2px solid #0a9f14;
+        }
+        .brand-name {
+            font-weight: bold;
+            color: #0074D9;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        .brand-desc {
+            color: #444;
+            font-size: 1rem;
+        }
+        .customer-section {
+            background: #eafbe7;
+            border-radius: 8px;
+            padding: 18px 0;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        .customer-icon {
+            color: #0a9f14;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .customer-text {
+            font-size: 1.15rem;
+            color: #0a9f14;
+            font-weight: 600;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 14px 4vw;
+            }
+            .brands-title {
+                font-size: 1.5rem;
+            }
+            .brands-header {
+                gap: 8px;
+            }
+            .brands-icon {
+                font-size: 1.5rem;
+            }
+            .brands-section {
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brands-header">
+            <span class="brands-icon">&#10003;</span>
+            <span class="brands-title">Our Brands</span>
+        </div>
+        <div class="brands-subtitle">
+            For Customers: Explore the best brands trusted by athletes and enthusiasts worldwide.
+        </div>
+        <div class="customer-section">
+            <span class="customer-icon">&#10003;</span>
+            <span class="customer-text">Handpicked for You — Quality, Performance, and Style</span>
+        </div>
+        <div class="brands-content">
+            At Macky Sports Apparel, we partner with top brands to bring you a curated selection of premium sportswear and accessories.<br>
+            Every brand we offer is chosen for its commitment to innovation, comfort, and customer satisfaction.
+        </div>
+        <div class="brands-section">
+            <div class="brand-card">
+                <img src="Images/mackylabel.png" alt="Macky Label" class="brand-logo">
+                <div class="brand-name">Macky Label</div>
+                <div class="brand-desc">Signature line of performance-driven apparel, designed for athletes who demand the best.</div>
+            </div>
+            <div class="brand-card">
+                <img src="Images/velocity.png" alt="Velocity Gear" class="brand-logo">
+                <div class="brand-name">Velocity Gear</div>
+                <div class="brand-desc">Engineered for speed and agility, Velocity Gear keeps you moving forward.</div>
+            </div>
+            <div class="brand-card">
+                <img src="Images/elitefit.png" alt="EliteFit" class="brand-logo">
+                <div class="brand-name">EliteFit</div>
+                <div class="brand-desc">Premium accessories and essentials for athletes who value both function and style.</div>
+            </div>
+            <div class="brand-card">
+                <img src="Images/endurance.png" alt="Endurance Pro" class="brand-logo">
+                <div class="brand-name">Endurance Pro</div>
+                <div class="brand-desc">Built for durability and comfort, Endurance Pro supports your toughest workouts.</div>
+            </div>
+        </div>
