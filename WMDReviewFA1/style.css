@@ -1,0 +1,18 @@
+/* Child CSS Selector */
+ul > li {
+    font-weight: bold;
+    color: blue;
+    margin: 0 0 3px 0;
+}
+
+/* ID CSS Selector */
+#myown {
+    color: green;
+    font-size: 20px;
+}
+
+/* Class CSS Selector */
+.myownclass {
+    color: gray;
+    font-size: 18px;
+}

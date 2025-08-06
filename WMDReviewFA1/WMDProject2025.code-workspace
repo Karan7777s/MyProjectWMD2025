@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../MyProjectWMD2025"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WMDProject2025"
+	}
+}
